@@ -1,0 +1,90 @@
+.content-footer,
+.masthead-heading,
+.masthead-intro {
+  text-align: center;
+}
+
+.content-footer > p,
+.masthead-heading,
+.masthead-intro {
+  color: white; 
+  font family: "nyt-cheltenham",georgia,"times new roman",times,serif;
+}
+
+.masthead {
+    padding: 12em 0; 
+    background-image: url("https://ununsplash.imgix.net/41/yEWFnFQRqfmY9l9efJ6g_Snap01-web.jpg?fit=crop&fm=jpg&h=750&q=75&w=1050");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: solid 1em #470047; 
+}
+
+.masthead-intro {
+    margin-bottom: 0.1em;
+}
+
+.masthead-heading {
+    margin-top: -0.2em;
+    font-size: 5em;
+}
+
+.introduction-section,
+.location-section,
+.questions-section {
+    max-width: 38em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+} 
+
+.social > li {
+  display: inline-block;
+}
+
+.content-footer {
+  /* Red, Green, Blue: #RRGGBB */
+  background-image: url("https://ununsplash.imgix.net/41/yEWFnFQRqfmY9l9efJ6g_Snap01-web.jpg?fit=crop&fm=jpg&h=750&q=75&w=1050");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: solid 1em #470047; 
+}
+
+.shadow {
+    webkit-moz-box-shadow:    3px 3px 5px 6px #ccc;
+  moz-webkit-box-shadow: 3px 3px 5px 6px #ccc;
+  box-shadow:         3px 3px 5px 6px #ccc;
+}
+
+p {
+  text-shadow: 1px 1px 1px #000;
+}
+
+.border {
+  border-radius: 10px;
+  background: #664466;
+}
+@media only screen and (max-width: 500px) {
+  .masthead {
+    padding: 3em 0;
+  }
+  .masthead-heading {
+    font-size: 3em;
+  }
+}
+.2ndheader {
+  text-align: center;
+}
+
+
+/*footer {
+  text-align: center;
+  margin-top: 2em;
+}
+/*header {
+   text-align: center;  
+   background-image: url("https://ununsplash.imgix.net/41/yEWFnFQRqfmY9l9efJ6g_Snap01-web.jpg?fit=crop&fm=jpg&h=750&q=75&w=1050");
+   background-repeat: no-repeat;
+   background-position: right top;
+}
+p { color: white; font-family: "Comis Sans MS", cursive, sans-serif; 
+}
